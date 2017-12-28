@@ -1,0 +1,25 @@
+{
+  "name": "ElegantRedis",
+  "version": "1.0.0",
+  "description": "A Redis/Mongo driver that automatically caches with Redis, creating blazingly fast reads.",
+  "main": "out/index.js",
+  "repository": "https://github.com/EricRabil/ElegantRedis.git",
+  "author": "Eric Rabil <ericjrabil@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "flat": "^4.0.0",
+    "mongoose": "^5.0.0-rc0",
+    "redis": "^2.8.0",
+    "uuid": "^3.1.0"
+  },
+  "devDependencies": {
+    "@types/flat": "^0.0.28",
+    "@types/mongoose": "^4.7.31",
+    "@types/redis": "^2.8.3",
+    "@types/uuid": "^3.4.3",
+    "typescript": "^2.6.2"
+  },
+  "scripts": {
+    "build": "tsc -p ."
+  }
+}
